@@ -23,7 +23,8 @@
     "docs:watch": "npm run docs watch",
     "prepublish": "rimraf artifacts build cache generated",
     "prepare": "bash scripts/prepare.sh",
-    "test": "bash scripts/test.sh"
+    "test": "bash scripts/test.sh",
+    "deploy-local": "graph deploy projects/starTicket --ipfs http://localhost:5001 --node http://localhost:8020 generated/star.subgraph.yaml"
   },
   "dependencies": {
     "@amxx/graphprotocol-utils": "^1.1.0-alpha.2",

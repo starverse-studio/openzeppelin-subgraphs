@@ -3,8 +3,8 @@
     "chain": "bscmainnet",
     "datasources": [
       {
-        "address": "0x4ebe7780b5f5314AcBE4Da6451b9Af86A7C6a11e",
-        "startBlock": 17982067,
+        "address": "0x023c8472975c4d9C9266016C571DaB1c24d5ED3d",
+        "startBlock": 18126235,
         "module": ["erc721"]
       }
     ]
