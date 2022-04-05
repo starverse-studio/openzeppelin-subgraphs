@@ -41,7 +41,7 @@ Escrow
 To use OpenZeppelin Subgraphs, install them in your local project directory and follow the steps outlined in __How to build my app's subgraph__:
 
 ```sh
-npm install @openzeppelin/subgraphs
+yarn install @openzeppelin/subgraphs
 ```
 
 ## How to build my app's subgraph
@@ -66,8 +66,8 @@ For example, `configs/sample.json` describes an app with 4 contracts, the first 
 It can be compiled by doing
 
 ```
-npx graph-compiler \
-  --config configs/sample.json \
+yarn graph-compiler \
+  --config configs/star.json \
   --include node_modules/@openzeppelin/subgraphs/src/datasources \
   --export-schema \
   --export-subgraph

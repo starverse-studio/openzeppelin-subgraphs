@@ -1,0 +1,12 @@
+{
+    "output": "generated/star.",
+    "chain": "bscmainnet",
+    "datasources": [
+      {
+        "address": "0x4ebe7780b5f5314AcBE4Da6451b9Af86A7C6a11e",
+        "startBlock": 17982067,
+        "module": ["erc721"]
+      }
+    ]
+  }
+  
